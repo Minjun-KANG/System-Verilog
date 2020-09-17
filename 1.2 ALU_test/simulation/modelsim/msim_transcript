@@ -1,0 +1,78 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ALU_test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/ALU_test {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:50 on Apr 13,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv 
+# -- Compiling module mux_2by1
+# -- Compiling module full_adder
+# -- Compiling module select_oper
+# -- Compiling module ALU_test
+# 
+# Top level modules:
+# 	ALU_test
+# End time: 07:35:50 on Apr 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/ALU_test {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:50 on Apr 13,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv 
+# -- Compiling module tb_ALU_test
+# 
+# Top level modules:
+# 	tb_ALU_test
+# End time: 07:35:50 on Apr 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_ALU_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_ALU_test 
+# Start time: 07:35:50 on Apr 13,2020
+# Loading sv_std.std
+# Loading work.tb_ALU_test
+# Loading work.ALU_test
+# Loading work.select_oper
+# Loading work.mux_2by1
+# Loading work.full_adder
+# ** Warning: (vsim-3017) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv(11): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU_test/ALU_Logic File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv
+# ** Warning: (vsim-3722) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv(11): [TFMPC] - Missing connection for port 'last_carry'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 12 of file "C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/testvector.txt". (Current address [11], address range [0:10])    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv(18)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU_test
+#                    5 a = 0000101000110111, b = 1001111111011110, c = 010, s = 0110101001011001
+#                   10 a = 1011101001011111, b = 0101000111000011, c = 000, s = 0000110000100010
+#                   15 a = 0010010010011001, b = 0100000011000000, c = 100, s = 0000000000000000
+#                   20 a = 1111001000100100, b = 1011001011110111, c = 101, s = 1111001011110111
+#                   25 a = 0010001111110010, b = 1101000000001001, c = 100, s = 0000000000000000
+#                   30 a = 1100101100100011, b = 1010101010101010, c = 001, s = 1100101100100100
+#                   35 a = 1001000010010001, b = 1010101010101010, c = 011, s = 1001000010010000
+#                   40 a = 0011110001110001, b = 0001011111111011, c = 010, s = 0010010001110110
+#                   45 a = 0000010100110011, b = 1010101010101010, c = 011, s = 0000010100110010
+#                   50 a = 0010101110011110, b = 0010000101100101, c = 111, s = 0000101011111011
+#                   55 a = 0110100111010011, b = 1101010001110010, c = 000, s = 0011111001000101
+#                   60 a = xxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxx, c = xxx, s = xxxxxxxxxxxxxxxx
+#                   65 a = xxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxx, c = xxx, s = xxxxxxxxxxxxxxxx
+#                   70 a = xxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxx, c = xxx, s = xxxxxxxxxxxxxxxx
+#                   75 a = xxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxx, c = xxx, s = xxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv(33)
+#    Time: 75 ns  Iteration: 1  Instance: /tb_ALU_test
+# Break in Module tb_ALU_test at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv line 33
+# End time: 07:36:50 on Apr 13,2020, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 3

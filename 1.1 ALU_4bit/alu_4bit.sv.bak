@@ -1,0 +1,36 @@
+module FA (input logic a, b, cin,
+      output logic cout, sum);
+
+   assign sum = a^b^cin;
+   assign cout = a&b | a&cin | b&cin;
+
+endmodule
+
+module MUX4 (input logic a00, a01, a10, a11,
+      input logic [1:0] cont,
+      ouptut logic out);
+
+   assign n0 = cont[0] ? a01 : a00;
+   assign n1 = cont[0] ? a11 : a10;
+   assign out = cont[1] ? n1 : n0;
+endmodule
+
+module alu_1bit (input logic a, b, cin,
+      input logic [2:0] c,
+      output logic cout, y);
+   assign n1 = (c[1]^c[0]) ? ~b : b;
+   assign n2 = c[0] ? c[1] : n1 ;
+
+   FA u1 (n2, a, cin, cout, n3);
+endmodule
+
+module alu_4bit (input logic [3:0] a, b,
+      input logic [2:0] cont,
+      output logic [3:0] yout,
+      output logic c4);
+   alu_1bit u0 (a[0], b[0], cont[1]^cont[0], cont, c1, yout[0]);
+   alu_1bit u1 (a[1], b[1], c1, cont, c2, yout[1]);
+   alu_1bit u2 (a[2], b[2], c2, cont, c3, yout[2]);
+   alu_1bit u3 (a[3], b[3], c3, cont, c4, yout[3]);
+
+endmodule

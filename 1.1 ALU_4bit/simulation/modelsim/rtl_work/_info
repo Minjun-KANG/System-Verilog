@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/simulation/modelsim
+valu_1bit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1586720131
+!i10b 1
+!s100 ]5CZ7`mVI6eY9;g_][5kE2
+IBNNHlB[48PFd6LbnZgb643
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 alu_4bit_sv_unit
+S1
+R0
+Z5 w1586719893
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/alu_4bit.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/alu_4bit.sv
+L0 21
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1586720131.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/alu_4bit.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/alu_4bit.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit}
+Z14 tCvgOpt 0
+valu_4bit
+R1
+R2
+!i10b 1
+!s100 `m[7g9i`ZEX0d5_7<Xe?o2
+IKA]O@7Fid=:h5MmBC=V=B3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 38
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vFA
+R1
+R2
+!i10b 1
+!s100 ganEg6cQSTP3ba7@[[OQ<3
+Il]3nXb9znAdf;MD?>h@OB0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@a
+vMUX4
+R1
+R2
+!i10b 1
+!s100 ;Y2<IH<G@NkfOSi?bX=Ea0
+I54>e>9L3DGjm=3hRH_zD40
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@m@u@x4
+vtb_alu_4bit
+R1
+R2
+!i10b 1
+!s100 2CjV]Omj6bUOegH^:FGf50
+IESUh<@63`=MAaV4V3WjJ32
+R3
+!s105 tb_alu_4bit_sv_unit
+S1
+R0
+w1586719124
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/tb_alu_4bit.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/tb_alu_4bit.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/tb_alu_4bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/alu_4bit/tb_alu_4bit.sv|
+!i113 1
+R12
+R13
+R14

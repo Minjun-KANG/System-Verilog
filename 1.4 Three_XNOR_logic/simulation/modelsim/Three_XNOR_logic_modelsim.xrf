@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/Three_XNOR_logic.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/tb_Three_XNOR_logic.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/db/Three_XNOR_logic.cbx.xml
+design_name = Three_XNOR_logic
+instance = comp, \y~output , y~output, Three_XNOR_logic, 1
+instance = comp, \b~input , b~input, Three_XNOR_logic, 1
+instance = comp, \c~input , c~input, Three_XNOR_logic, 1
+instance = comp, \a~input , a~input, Three_XNOR_logic, 1
+instance = comp, \y~0 , y~0, Three_XNOR_logic, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Three_XNOR_logic, 1

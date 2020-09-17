@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at tb_ALU_test.sv(14): always construct contains both blocking and non-blocking assignments File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv Line: 14

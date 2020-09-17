@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/simulation/modelsim
+vALU_test
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1586730950
+!i10b 1
+!s100 ODHK`BKK3=:Q@QGKAXZ1I3
+I90lg>g4knmbiJ?j8PB8EV1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ALU_test_sv_unit
+S1
+R0
+Z5 w1586728557
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv
+L0 83
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1586730950.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/ALU_test.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test}
+Z14 tCvgOpt 0
+n@a@l@u_test
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 =WX@Z;b@FY5AlP^e?ibdm3
+IAaSE>KiC>3z9j3hA@?BFH0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux_2by1
+R1
+R2
+!i10b 1
+!s100 MUcUk[Vn8`23ml]Jb3j]^1
+II>3CiSn70oT5aEK_LdZ]:0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vselect_oper
+R1
+R2
+!i10b 1
+!s100 K66CBWYQfF7>Gci=`jLS<1
+IG?mP2CjjDXK0G=Y7A9REd1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 30
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtb_ALU_test
+R1
+R2
+!i10b 1
+!s100 <fPeCfTW]O5DbLdVGE82m3
+IM:VAWIi[zDl]58^_F`XWe1
+R3
+!s105 tb_ALU_test_sv_unit
+S1
+R0
+w1586728816
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_test/tb_ALU_test.sv|
+!i113 1
+R12
+R13
+R14
+ntb_@a@l@u_test

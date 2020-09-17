@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/simulation/modelsim
+vNAND_logic
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1586613126
+!i10b 1
+!s100 2nfV0jRkdd`g0[M>2P2aS1
+I;fcKgXJi`SNSOgJ;A8fCn3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 NAND_logic_sv_unit
+S1
+R0
+w1586612479
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/NAND_logic.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/NAND_logic.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1586613126.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/NAND_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/NAND_logic.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic}
+Z4 tCvgOpt 0
+n@n@a@n@d_logic
+vtb_NAND_logic
+R1
+!s110 1586614551
+!i10b 1
+!s100 NWF2OVc@0M0[iT@fG[cAA0
+I96GRdUc?NHRES<Bm[fY`e1
+R2
+!s105 tb_NAND_logic_sv_unit
+S1
+R0
+w1586614548
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/tb_NAND_logic.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/tb_NAND_logic.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586614551.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/tb_NAND_logic.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/tb_NAND_logic.sv|
+!i113 1
+o-work work
+R4
+ntb_@n@a@n@d_logic

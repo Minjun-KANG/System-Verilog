@@ -1,0 +1,8 @@
+module mux_2by1(input logic a,b,s, output logic y);
+	if(s == 0)
+		assign y = a;
+	else
+		assign y = b;
+endmodule
+
+

@@ -1,0 +1,154 @@
+module mux_2by1(input logic a,b,s, output logic y);
+	initial begin
+		$display("a=%b, b=%b, s=%b, y=%b",a,b,s,y);
+	end
+	assign y=((a&s) | (b&(~s)));
+endmodule
+
+
+module full_adder(input logic a,b,cin, output logic s, cout);
+
+	assign s = (a^b) ^ cin;
+	assign cout = (a&b) | (( a ^ b ) & cin );
+	
+endmodule
+
+
+module select_oper(input logic a,b,cin, 
+							input logic c2, c1, c0,
+								output logic y, cout);//cout - carry, y- each sum value
+		
+		//logic part variable
+		logic n1, n2, n3, n4, n5, n6;
+		logic n4_5, n6_7, logic_out;
+		
+		logic full_adder_sum;
+		//logic part
+	
+		assign n4 = a^b;
+		assign n5 = a&b;
+		assign n6 = a|b;
+		
+		initial begin
+			$display("n4=%b, n5=%b, n6=%b",n4,n5,n6);
+		end
+		
+		
+		mux_2by1 n4orn5(n4, n5, c0, n4_5);
+		initial begin
+			$display("n4_5=%b",n4_5);
+		end
+		
+		mux_2by1 n6or0(n6, 1'h0, c0, n6_7);
+		
+		mux_2by1 logic_select(n4_5, n6_7, c1, logic_out); //output - logic_out
+		
+		initial begin
+			$display("mux-logic-out = %b",logic_out);
+		end
+		
+		//alg part
+		assign n1 = (c1^c0);
+		mux_2by1 b_bar(~b, b, n1, n2);
+		mux_2by1 oper_select(n2, c1, c0, n3);
+		
+		
+		full_adder fa(a, n3, cin, full_adder_sum, cout); //full_sum & cout -> output
+		
+		initial begin
+			$display("sum = %b, cout = %b",full_adder_sum, cout);
+		end
+		
+		// logic or alg part
+		
+		mux_2by1 last_mux(full_adder_sum, logic_out, c2, y);
+		
+		initial begin
+			$display("mux-logic-out = %b",y);
+		end
+		
+endmodule
+		
+
+
+
+module ALU_16(input logic [15:0] a, b, 
+					input logic [2:0]c, 
+						output logic [15:0]yout);
+
+
+	
+	wire [15:0] carry;
+	logic last_carry; //overflow
+	assign carry[0] = 1'b0;
+	
+
+	
+	select_oper s1(a[0],b[0],carry[0],c[2],c[1],c[0], yout[0], carry[1]);
+	select_oper s2(a[1],b[1],carry[1],c[2],c[1],c[0], yout[1], carry[2]);
+	select_oper s3(a[2],b[2],carry[2],c[2],c[1],c[0], yout[2], carry[3]); 
+	select_oper s4(a[3],b[3],carry[3],c[2],c[1],c[0], yout[3], carry[4]);
+	select_oper s5(a[4],b[4],carry[4],c[2],c[1],c[0], yout[4], carry[5]);
+	select_oper s6(a[5],b[5],carry[5],c[2],c[1],c[0], yout[5], carry[6]); 
+	select_oper s7(a[6],b[6],carry[6],c[2],c[1],c[0], yout[6], carry[7]); 
+	select_oper s8(a[7],b[7],carry[7],c[2],c[1],c[0], yout[7], carry[8]); 
+	select_oper s9(a[8],b[8],carry[8],c[2],c[1],c[0], yout[8], carry[9]); 
+	select_oper s10(a[9],b[9],carry[9],c[2],c[1],c[0], yout[9], carry[10]); 
+	select_oper s11(a[10],b[10],carry[10],c[2],c[1],c[0], yout[10], carry[11]); 
+	select_oper s12(a[11],b[11],carry[11],c[2],c[1],c[0], yout[11], carry[12]); 
+	select_oper s13(a[12],b[12],carry[12],c[2],c[1],c[0], yout[12], carry[13]); 
+	select_oper s14(a[13],b[13],carry[13],c[2],c[1],c[0], yout[13], carry[14]); 
+	select_oper s15(a[14],b[14],carry[14],c[2],c[1],c[0], yout[14], carry[15]);
+	select_oper s16(a[15],b[15],carry[15],c[2],c[1],c[0], yout[15], last_carry); 
+	
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+module test_b();
+	
+	logic clk;
+	logic [15:0] a, b, sum;
+	logic [2:0]c;
+	logic [31:0] counter;
+	logic [31:0] testvector [3:0];
+	
+	
+	
+	ALU_16 ALU_Logic(a,b,c,sum);
+	
+	//timing statement, a delay of 5sec for each high and low
+	always begin
+		clk <= 1; #5; clk <= 0; #5;
+	end
+	
+	
+	initial begin
+		$readmemb("C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/testvector.txt"
+		, testvector);
+		counter = 0;
+	end
+	//this process is triggerd for every rising edge of the clock 
+	always @(posedge clk) begin
+		#1; {a,b} = testvector[counter];
+	end
+	
+	
+	//this process is triggerd for every falling edge of the clock 
+	always @(negedge clk) begin
+		$display("value of a=%b, b=%b, c=%b, s=%b",a,b,c,sum);
+		counter = counter + 1;
+		if(counter == 5) //hit break on the simulation
+			$stop;
+	end
+	
+endmodule

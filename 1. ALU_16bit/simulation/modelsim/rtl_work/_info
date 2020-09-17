@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/simulation/modelsim
+vALU_16
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1586716733
+!i10b 1
+!s100 i=YZko943zh7MD7Dab3Kd2
+I3b6bF]YifPB:_1NBVnUUW1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_16_sv_unit
+S1
+R0
+w1586715270
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/ALU_16.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/ALU_16.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1586716733.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/ALU_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/ALU_16.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16}
+Z8 tCvgOpt 0
+n@a@l@u_16
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 lUCh]`NI]AR@K8KOleYg@1
+IJ3Ya[g9ESJYN`G9N7HUGz2
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+w1586714242
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/full_adder.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/full_adder.sv|
+!i113 1
+R6
+R7
+R8
+vmux_2by1
+R1
+R2
+!i10b 1
+!s100 43X8ze28CdJVh]IU7HX[n3
+IJ<2f96U6?:N9on?jF9^[T1
+R3
+!s105 mux_2by1_sv_unit
+S1
+R0
+w1586713992
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/mux_2by1.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/mux_2by1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/mux_2by1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/mux_2by1.sv|
+!i113 1
+R6
+R7
+R8
+vselect_oper
+R1
+R2
+!i10b 1
+!s100 _j]kk0c`zK=c:>8be93Lj3
+IWZ?Ra<6ElNfn8gm4nRcg]1
+R3
+!s105 select_oper_sv_unit
+S1
+R0
+w1586715064
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/select_oper.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/select_oper.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1586716732.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/select_oper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/select_oper.sv|
+!i113 1
+R6
+R7
+R8
+vtest_b
+R1
+R2
+!i10b 1
+!s100 ^S[a2TOF^nnMkES:[9oS:2
+Ik:<gH@5kjDW@KUFhMeOJb1
+R3
+!s105 test_b_sv_unit
+S1
+R0
+w1586716528
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/test_b.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/test_b.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/test_b.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/test_b.sv|
+!i113 1
+R6
+R7
+R8

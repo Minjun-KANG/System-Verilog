@@ -1,0 +1,84 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/simulation/modelsim
+vfull_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1586623408
+!i10b 1
+!s100 PoZQ0g<7XoA<7^44_4Z;`3
+IzMR<j6_B2_^IoHPR4JGiM1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 full_adder_sv_unit
+S1
+R0
+w1586621994
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1586623407.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder}
+Z7 tCvgOpt 0
+vfull_adder_16
+R1
+R2
+!i10b 1
+!s100 =ZJi[DCbLz_C]?7BQFG]80
+Ig_]^Q^GXDV2L5S4:eXTKO2
+R3
+!s105 full_adder_16_sv_unit
+S1
+R0
+w1586622379
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1586623408.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv|
+!i113 1
+R5
+R6
+R7
+vtb_full_adder_16
+R1
+!s110 1586624126
+!i10b 1
+!s100 ]KnEVn1:?_8PTDKN6]KHo2
+I3DX0^gXDhd@QTS?<7cb[E2
+R3
+!s105 tb_full_adder_16_sv_unit
+S1
+R0
+w1586623607
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1586624126.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv|
+!i113 1
+o-work work
+R7

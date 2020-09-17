@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/NAND_logic.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/tb_NAND_logic.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/NAND_logic/db/NAND_logic.cbx.xml
+design_name = NAND_logic
+instance = comp, \y~output , y~output, NAND_logic, 1
+instance = comp, \b~input , b~input, NAND_logic, 1
+instance = comp, \a~input , a~input, NAND_logic, 1
+instance = comp, \y~0 , y~0, NAND_logic, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, NAND_logic, 1

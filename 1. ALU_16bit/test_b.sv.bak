@@ -1,0 +1,50 @@
+module test_b();
+	
+	logic clk;
+	logic [15:0] a, b, sum;
+	logic [2:0]c;
+	logic [31:0] counter;
+	logic [31:0] testvector [3:0];
+	
+	seg x,y,z;
+	logic xx;
+	assign x = 1;
+	assign y = 0;
+	assign z = 1;
+	
+	
+	ALU_16 ALU_Logic(a,b,c,sum);
+	mux_2by1 m1(x,y,z,xx);
+	
+	//timing statement, a delay of 5sec for each high and low
+	always begin
+		clk <= 1; #5; clk <= 0; #5;
+	end
+	
+	
+	initial begin
+		$readmemb("C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/ALU_16/testvector.txt"
+		, testvector);
+		counter = 0;
+	end
+	//this process is triggerd for every rising edge of the clock 
+	always @(posedge clk) begin
+		#1; {a,b} = testvector[counter];
+	end
+	
+	initial begin
+		$display("mux data : %b",xx);
+	end
+
+
+	//this process is triggerd for every falling edge of the clock 
+	always @(negedge clk) begin
+		$display("value of a=%b, b=%b, c=%b, s=%b",a,b,c,sum);
+		counter = counter + 1;
+		if(counter == 5) //hit break on the simulation
+			$stop;
+	end
+	
+	
+	
+endmodule

@@ -1,0 +1,147 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do full_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/full_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:43:27 on Apr 12,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 01:43:28 on Apr 12,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/full_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:43:28 on Apr 12,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/full_adder_16.sv 
+# -- Compiling module full_adder_16
+# 
+# Top level modules:
+# 	full_adder_16
+# End time: 01:43:28 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/full_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:43:28 on Apr 12,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv 
+# -- Compiling module tb_full_adder_16
+# 
+# Top level modules:
+# 	tb_full_adder_16
+# End time: 01:43:28 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_full_adder_16
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_full_adder_16 
+# Start time: 01:43:28 on Apr 12,2020
+# Loading sv_std.std
+# Loading work.tb_full_adder_16
+# Loading work.full_adder_16
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "C:UsersnsalOneDriveDesktopSource codeQuartusull_adder	estvector.txt" in read mode.
+# Invalid argument. (errno = EINVAL)    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(17)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_full_adder_16
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(32)
+#    Time: 45 ps  Iteration: 1  Instance: /tb_full_adder_16
+# Break in Module tb_full_adder_16 at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv line 32
+restart -f
+vlog -reportprogress 300 -work work {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:45:47 on Apr 12,2020
+# vlog -reportprogress 300 -work work C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv 
+# -- Compiling module tb_full_adder_16
+# 
+# Top level modules:
+# 	tb_full_adder_16
+# End time: 01:45:47 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "C:UsersnsalOneDriveDesktopSource codeQuartusull_adder	estvector.txt" in read mode.
+# Invalid argument. (errno = EINVAL)    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(17)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_full_adder_16
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(32)
+#    Time: 45 ps  Iteration: 1  Instance: /tb_full_adder_16
+# Break in Module tb_full_adder_16 at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv line 32
+vlog -reportprogress 300 -work work {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:47:00 on Apr 12,2020
+# vlog -reportprogress 300 -work work C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv 
+# -- Compiling module tb_full_adder_16
+# 
+# Top level modules:
+# 	tb_full_adder_16
+# End time: 01:47:00 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_full_adder_16
+run -all
+# value of a=0001100111000110, b=0000010111011001, s=0001111110011111
+# value of a=1111101001000100, b=1111001110101001, s=1110110111101101
+# value of a=0010010111010111, b=0010110011000111, s=0101001010011110
+# value of a=0000000001100100, b=1111111111010011, s=0000000000110111
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(32)
+#    Time: 45 ps  Iteration: 1  Instance: /tb_full_adder_16
+# Break in Module tb_full_adder_16 at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv line 32
+# WARNING: No extended dataflow license exists
+vlog -reportprogress 300 -work work {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:54:14 on Apr 12,2020
+# vlog -reportprogress 300 -work work C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv 
+# -- Compiling module tb_full_adder_16
+# 
+# Top level modules:
+# 	tb_full_adder_16
+# End time: 01:54:14 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:55:26 on Apr 12,2020
+# vlog -reportprogress 300 -work work C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv 
+# -- Compiling module tb_full_adder_16
+# 
+# Top level modules:
+# 	tb_full_adder_16
+# End time: 01:55:26 on Apr 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_full_adder_16
+run -all
+# value of a=0000000000000000, b=0000000000000000, s=0000000000000000
+# value of a=1111111111111111, b=1111111111111111, s=1111111111111110
+# value of a=0111111111111111, b=0111111111111111, s=1111111111111110
+# value of a=1000000000000000, b=0111111111111111, s=1111111111111111
+# value of a=xxxxxxxxxxxxxxxx, b=xxxxxxxxxxxxxxxx, s=xxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv(32)
+#    Time: 45 ps  Iteration: 1  Instance: /tb_full_adder_16
+# Break in Module tb_full_adder_16 at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/full_adder/tb_full_adder_16.sv line 32
+# End time: 01:56:33 on Apr 12,2020, Elapsed time: 0:13:05
+# Errors: 0, Warnings: 3

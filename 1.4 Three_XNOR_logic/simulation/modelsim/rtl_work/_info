@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/simulation/modelsim
+vtb_Three_XNOR_logic
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1586616241
+!i10b 1
+!s100 YDLj@gUIX9ef>omR?5;c]0
+Ik3i_fUjglRC[]XV=:4X343
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 tb_Three_XNOR_logic_sv_unit
+S1
+R0
+w1586616100
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/tb_Three_XNOR_logic.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/tb_Three_XNOR_logic.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1586616241.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/tb_Three_XNOR_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/tb_Three_XNOR_logic.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic}
+Z6 tCvgOpt 0
+ntb_@three_@x@n@o@r_logic
+vThree_XNOR_logic
+R1
+!s110 1586616240
+!i10b 1
+!s100 LJ89h:K5]>URBWW<W?_ez2
+IWaA[6V7=d8L[TTjLo7TIn1
+R2
+!s105 Three_XNOR_logic_sv_unit
+S1
+R0
+w1586615232
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/Three_XNOR_logic.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/Three_XNOR_logic.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586616240.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/Three_XNOR_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Three_XNOR_logic/Three_XNOR_logic.sv|
+!i113 1
+R4
+R5
+R6
+n@three_@x@n@o@r_logic
