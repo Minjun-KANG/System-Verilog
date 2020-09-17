@@ -1,0 +1,77 @@
+|Memory
+clk => clk.IN2
+rst => rst.IN1
+we_dual => we_dual.IN2
+addr_wr[0] => addr_wr[0].IN2
+addr_wr[1] => addr_wr[1].IN2
+addr_wr[2] => addr_wr[2].IN2
+addr_rd[0] => addr_rd[0].IN2
+addr_rd[1] => addr_rd[1].IN2
+addr_rd[2] => addr_rd[2].IN2
+din[0] => din[0].IN1
+din[1] => din[1].IN1
+din[2] => din[2].IN1
+din[3] => din[3].IN1
+dual_empty <= pointer:pt.port5
+dual_full <= pointer:pt.port6
+dout_dual[0] <= dual_port:dut_dual.port5
+dout_dual[1] <= dual_port:dut_dual.port5
+dout_dual[2] <= dual_port:dut_dual.port5
+dout_dual[3] <= dual_port:dut_dual.port5
+
+
+|Memory|dual_port:dut_dual
+clk => mem_dual.we_a.CLK
+clk => mem_dual.waddr_a[2].CLK
+clk => mem_dual.waddr_a[1].CLK
+clk => mem_dual.waddr_a[0].CLK
+clk => mem_dual.data_a[3].CLK
+clk => mem_dual.data_a[2].CLK
+clk => mem_dual.data_a[1].CLK
+clk => mem_dual.data_a[0].CLK
+clk => mem_dual.CLK0
+we_dual => mem_dual.we_a.DATAIN
+we_dual => mem_dual.WE
+addr_wr[0] => mem_dual.waddr_a[0].DATAIN
+addr_wr[0] => mem_dual.WADDR
+addr_wr[1] => mem_dual.waddr_a[1].DATAIN
+addr_wr[1] => mem_dual.WADDR1
+addr_wr[2] => mem_dual.waddr_a[2].DATAIN
+addr_wr[2] => mem_dual.WADDR2
+addr_rd[0] => mem_dual.RADDR
+addr_rd[1] => mem_dual.RADDR1
+addr_rd[2] => mem_dual.RADDR2
+din[0] => mem_dual.data_a[0].DATAIN
+din[0] => mem_dual.DATAIN
+din[1] => mem_dual.data_a[1].DATAIN
+din[1] => mem_dual.DATAIN1
+din[2] => mem_dual.data_a[2].DATAIN
+din[2] => mem_dual.DATAIN2
+din[3] => mem_dual.data_a[3].DATAIN
+din[3] => mem_dual.DATAIN3
+dout_dual[0] <= mem_dual.DATAOUT
+dout_dual[1] <= mem_dual.DATAOUT1
+dout_dual[2] <= mem_dual.DATAOUT2
+dout_dual[3] <= mem_dual.DATAOUT3
+
+
+|Memory|pointer:pt
+clk => fifo_cnt[0].CLK
+clk => fifo_cnt[1].CLK
+clk => fifo_cnt[2].CLK
+rst => fifo_cnt.OUTPUTSELECT
+rst => fifo_cnt.OUTPUTSELECT
+rst => fifo_cnt.OUTPUTSELECT
+we_dual => fifo_cnt.OUTPUTSELECT
+we_dual => fifo_cnt.OUTPUTSELECT
+we_dual => fifo_cnt.OUTPUTSELECT
+addr_wr[0] => ~NO_FANOUT~
+addr_wr[1] => ~NO_FANOUT~
+addr_wr[2] => ~NO_FANOUT~
+addr_rd[0] => ~NO_FANOUT~
+addr_rd[1] => ~NO_FANOUT~
+addr_rd[2] => ~NO_FANOUT~
+dual_empty <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+dual_full <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+

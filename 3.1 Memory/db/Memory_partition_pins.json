@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dout_single[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_single[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_single[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_single[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[3]",
+					"strict" : false
+				},
+				{
+					"name" : "si_empty",
+					"strict" : false
+				},
+				{
+					"name" : "si_full",
+					"strict" : false
+				},
+				{
+					"name" : "du_empty",
+					"strict" : false
+				},
+				{
+					"name" : "du_full",
+					"strict" : false
+				},
+				{
+					"name" : "addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "we_single",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "we_dual",
+					"strict" : false
+				},
+				{
+					"name" : "din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "din[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

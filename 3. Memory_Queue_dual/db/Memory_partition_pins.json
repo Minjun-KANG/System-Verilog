@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dual_empty",
+					"strict" : false
+				},
+				{
+					"name" : "dual_full",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_dual[3]",
+					"strict" : false
+				},
+				{
+					"name" : "we_dual",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_wr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr_rd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "din[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

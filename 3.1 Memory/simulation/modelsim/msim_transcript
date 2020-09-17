@@ -1,0 +1,71 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Memory_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/Memory {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:54 on May 25,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv 
+# -- Compiling module Memory
+# -- Compiling module single_port
+# -- Compiling module dual_port
+# 
+# Top level modules:
+# 	Memory
+# End time: 21:26:54 on May 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/Memory {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:54 on May 25,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv 
+# -- Compiling module tb_Memory
+# 
+# Top level modules:
+# 	tb_Memory
+# End time: 21:26:54 on May 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_Memory
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_Memory 
+# Start time: 21:26:55 on May 25,2020
+# Loading sv_std.std
+# Loading work.tb_Memory
+# Loading work.Memory
+# Loading work.single_port
+# Loading work.dual_port
+# ** Warning: (vsim-3017) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv(10): [TFMPC] - Too few port connections. Expected 13, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Memory/dut File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv
+# ** Warning: (vsim-3722) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv(10): [TFMPC] - Missing connection for port 'du_empty'.
+# ** Warning: (vsim-3722) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv(10): [TFMPC] - Missing connection for port 'du_full'.
+# ** Warning: (vsim-3017) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv(12): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Memory/dut/dut_single File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv
+# ** Warning: (vsim-3722) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv(12): [TFMPC] - Missing connection for port 'fifo_cnt'.
+# ** Warning: (vsim-3017) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv(13): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Memory/dut/dut_dual File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv
+# ** Warning: (vsim-3722) C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv(13): [TFMPC] - Missing connection for port 'fifo_cnt'.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Kang  Hostname: DESKTOP-VMMSV76  ProcessID: 12416
+#           Attempting to use alternate WLF file "./wlft7z8jtc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7z8jtc
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv(57)
+#    Time: 150 ps  Iteration: 1  Instance: /tb_Memory
+# Break in Module tb_Memory at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv line 57
+# End time: 21:27:58 on May 25,2020, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 9

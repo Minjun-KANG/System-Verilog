@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/simulation/modelsim
+vdual_port
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1590409614
+!i10b 1
+!s100 F3gJT;l8URX;K2LklNgQb3
+IeNW[WMXAd^D?63E=V?>=z1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 memory_sv_unit
+S1
+R0
+Z5 w1590409080
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv
+L0 51
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1590409614.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/memory.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory}
+Z14 tCvgOpt 0
+vMemory
+R1
+R2
+!i10b 1
+!s100 >eGnmb3R4;bU_?=2R4NPV2
+IL<YRzC]QBGGl`f[A:Y58J1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@memory
+vsingle_port
+R1
+R2
+!i10b 1
+!s100 P?^Ti`NJhB>Qnn`2i8FoA0
+IT09A9L_NWb[[Jj[@IEYoe0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 19
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtb_Memory
+R1
+R2
+!i10b 1
+!s100 =kd2i`Rf8gnB9:>c:S3cL2
+I4QPGbD9Zd0jLeYQK[>P763
+R3
+!s105 tb_Memory_sv_unit
+S1
+R0
+w1590408048
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory/tb_Memory.sv|
+!i113 1
+R12
+R13
+R14
+ntb_@memory

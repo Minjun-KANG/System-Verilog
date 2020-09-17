@@ -1,0 +1,44 @@
+module Memory( 
+		
+		//dual memory logic
+		input clk,
+		input we_dual,
+		input [2:0] addr_wr, addr_rd, //initialize value
+		input [3:0] din,
+		input [2:0] dual_wr_pt, dual_rd_pt,
+		output dual_empty, dual_full,
+		output logic [3:0] dout_dual
+		
+);
+endmodule
+
+module dual_port(
+		input clk,
+		input we_dual,
+		input [2:0] addr, //initialize value
+		input [3:0] din,
+		input [2:0] dual_wr_pt, dual_rd_pt,
+		output dual_empty, dual_full,
+		output logic [3:0] dout_dual,
+		output reg [3:0] fifo_cnt //max is 7
+		
+);
+	
+
+	logic [3:0] mem_dual [7:0]; // mem_dual[4][3] //front array index is data size
+	
+	always_ff @ (posedge clk) begin
+		dual_wr_pt = addr_wr;
+		//dual_rd_pt = addr_rd;
+		if(we_dual) begin
+			mem_dual[dual_wr_pt] <= din;
+			fifo_cnt <= fifo_cnt + 1;
+		end
+	end	
+	
+	assign du_empty = (fifo_cnt==0);
+	assign du_full = (fifo_cnt==8);
+	assign dout_dual = mem_dual[dual_rd_pt];
+	
+
+endmodule

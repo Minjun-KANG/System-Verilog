@@ -1,0 +1,49 @@
+module Memory(
+		input clk,
+		input we_single, we_dual,
+		input [1:0] addr, addr_wr, addr_rd,
+		input [2:0] din,
+		output logic [2:0] dout_single, dout_dual
+);
+
+
+	single_port dut_single(clk, we_single, addr, din, dout_single);
+	dual_port dut_dual(clk, we_dual, addr_wr, addr_rd, din, dout_dual);
+	
+endmodule
+
+module single_port(
+		input clk;
+		input we_single,
+		input [1:0] addr,
+		input [2:0] din,
+		output logic [2:0] dout_single
+);
+
+	logic [2:0] mem_single [3:0];
+	
+	always_ff @ (posedge clk) begin
+		if(we_single)
+			mem_single[addr] <= din;
+	end
+	
+	assign dout_single = mem_single[addr];
+endmodule
+
+module dual_port(
+		input clk,
+		input we_dual,
+		input [1:0] addr_wr, addr_rd,
+		input [2:0] din,
+		output logic [2:0] dout_dual
+);
+	logic [2:0] mem_dual [3:0];
+	
+	always_ff @ (posedge clk) begin
+		if(we_dual)
+			mem_dual[addr_wr] <= din;
+	end
+	
+	assign dout_dual = mem_dual[addr_rd];
+
+endmodule

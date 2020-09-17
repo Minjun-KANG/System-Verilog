@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/simulation/modelsim
+vdual_port
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1590582509
+!i10b 1
+!s100 BdNoU66ZCUOmiVXZH`?EE0
+I611dWdPhPgNk2Y4zO?8E10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 Memory_sv_unit
+S1
+R0
+Z5 w1590524782
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/Memory.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/Memory.sv
+L0 35
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1590582508.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/Memory.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/Memory.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual}
+Z14 tCvgOpt 0
+vMemory
+R1
+R2
+!i10b 1
+!s100 fP;=f880>0=H_gH5ncjLn3
+I9MY[lCHmE7C;I7B;@_2_j1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@memory
+vpointer
+R1
+R2
+!i10b 1
+!s100 Y6QG0J0C;Xh9T:Y]4PjM:3
+Il2U8<1ChHf1d>mLLYEOiK3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 60
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtb_Memory
+R1
+R2
+!i10b 1
+!s100 ]LgaEk:mFVDG]W3;]EQcz2
+IL9[1Dg^P5zbGHkN8iRgGI2
+R3
+!s105 tb_Memory_sv_unit
+S1
+R0
+w1590582483
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/tb_Memory.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/tb_Memory.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1590582509.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/tb_Memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/tb_Memory.sv|
+!i113 1
+R12
+R13
+R14
+ntb_@memory

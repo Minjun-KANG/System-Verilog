@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at tb_Memory.sv(39): always construct contains both blocking and non-blocking assignments File: C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/Memory_Queue_dual/tb_Memory.sv Line: 39
