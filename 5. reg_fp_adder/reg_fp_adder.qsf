@@ -1,0 +1,169 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 07:40:17  June 10, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		reg_fp_adder_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY reg_fp_adder
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:40:17  JUNE 10, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (SystemVerilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_reg_fp_adder -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_reg_fp_adder -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_reg_fp_adder
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_reg_fp_adder -section_id tb_reg_fp_adder
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_reg_fp_adder.sv -section_id tb_reg_fp_adder
+set_global_assignment -name SDC_FILE reg_fp_adder.out.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE reg_fp_adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_reg_fp_adder.sv
+set_location_assignment PIN_AD11 -to a[31]
+set_location_assignment PIN_AJ20 -to a[30]
+set_location_assignment PIN_AH19 -to a[29]
+set_location_assignment PIN_AD7 -to a[28]
+set_location_assignment PIN_AG1 -to a[27]
+set_location_assignment PIN_AF8 -to a[26]
+set_location_assignment PIN_AH18 -to a[25]
+set_location_assignment PIN_AJ21 -to a[24]
+set_location_assignment PIN_AA19 -to a[23]
+set_location_assignment PIN_AA14 -to a[22]
+set_location_assignment PIN_AJ12 -to a[21]
+set_location_assignment PIN_AF10 -to a[20]
+set_location_assignment PIN_Y16 -to a[19]
+set_location_assignment PIN_AK9 -to a[18]
+set_location_assignment PIN_AJ16 -to a[17]
+set_location_assignment PIN_AK18 -to a[16]
+set_location_assignment PIN_AG15 -to a[15]
+set_location_assignment PIN_AK19 -to a[14]
+set_location_assignment PIN_AH12 -to a[13]
+set_location_assignment PIN_AE16 -to a[12]
+set_location_assignment PIN_AG18 -to a[11]
+set_location_assignment PIN_AF14 -to a[10]
+set_location_assignment PIN_AH4 -to a[9]
+set_location_assignment PIN_AE7 -to a[8]
+set_location_assignment PIN_AH13 -to a[7]
+set_location_assignment PIN_AH17 -to a[6]
+set_location_assignment PIN_AG2 -to a[5]
+set_location_assignment PIN_AC18 -to a[4]
+set_location_assignment PIN_AG16 -to a[3]
+set_location_assignment PIN_AJ9 -to a[2]
+set_location_assignment PIN_AJ17 -to a[1]
+set_location_assignment PIN_AE14 -to a[0]
+set_location_assignment PIN_AC9 -to b[31]
+set_location_assignment PIN_AK16 -to b[30]
+set_location_assignment PIN_AF4 -to b[29]
+set_location_assignment PIN_AF16 -to b[28]
+set_location_assignment PIN_AK14 -to b[27]
+set_location_assignment PIN_AH15 -to b[26]
+set_location_assignment PIN_AD19 -to b[25]
+set_location_assignment PIN_AG3 -to b[24]
+set_location_assignment PIN_AD9 -to b[23]
+set_location_assignment PIN_AJ7 -to b[22]
+set_location_assignment PIN_AJ10 -to b[21]
+set_location_assignment PIN_AJ14 -to b[20]
+set_location_assignment PIN_AK13 -to b[19]
+set_location_assignment PIN_AF9 -to b[18]
+set_location_assignment PIN_AH14 -to b[17]
+set_location_assignment PIN_AA12 -to b[16]
+set_location_assignment PIN_AJ2 -to b[15]
+set_location_assignment PIN_AC20 -to b[14]
+set_location_assignment PIN_AK6 -to b[13]
+set_location_assignment PIN_AG5 -to b[12]
+set_location_assignment PIN_AD12 -to b[11]
+set_location_assignment PIN_AG12 -to b[10]
+set_location_assignment PIN_AH7 -to b[9]
+set_location_assignment PIN_AK12 -to b[8]
+set_location_assignment PIN_AH5 -to b[7]
+set_location_assignment PIN_AG7 -to b[6]
+set_location_assignment PIN_AJ5 -to b[5]
+set_location_assignment PIN_AF15 -to b[4]
+set_location_assignment PIN_AJ1 -to b[3]
+set_location_assignment PIN_AH2 -to b[2]
+set_location_assignment PIN_AE11 -to b[1]
+set_location_assignment PIN_AF13 -to b[0]
+set_location_assignment PIN_AD17 -to clk
+set_location_assignment PIN_AD14 -to reset
+set_location_assignment PIN_AH22 -to sum[31]
+set_location_assignment PIN_AK7 -to sum[30]
+set_location_assignment PIN_AJ11 -to sum[29]
+set_location_assignment PIN_AG13 -to sum[28]
+set_location_assignment PIN_AC14 -to sum[27]
+set_location_assignment PIN_AE17 -to sum[26]
+set_location_assignment PIN_AK11 -to sum[25]
+set_location_assignment PIN_AH10 -to sum[24]
+set_location_assignment PIN_AK8 -to sum[23]
+set_location_assignment PIN_AB13 -to sum[22]
+set_location_assignment PIN_AB15 -to sum[21]
+set_location_assignment PIN_AE13 -to sum[20]
+set_location_assignment PIN_AH8 -to sum[19]
+set_location_assignment PIN_AF6 -to sum[18]
+set_location_assignment PIN_AG11 -to sum[17]
+set_location_assignment PIN_AB12 -to sum[16]
+set_location_assignment PIN_AG8 -to sum[15]
+set_location_assignment PIN_AF5 -to sum[14]
+set_location_assignment PIN_AG6 -to sum[13]
+set_location_assignment PIN_AJ4 -to sum[12]
+set_location_assignment PIN_AG17 -to sum[11]
+set_location_assignment PIN_AK2 -to sum[10]
+set_location_assignment PIN_AH3 -to sum[9]
+set_location_assignment PIN_AK4 -to sum[8]
+set_location_assignment PIN_AA15 -to sum[7]
+set_location_assignment PIN_AJ6 -to sum[6]
+set_location_assignment PIN_AH9 -to sum[5]
+set_location_assignment PIN_AG10 -to sum[4]
+set_location_assignment PIN_AA13 -to sum[3]
+set_location_assignment PIN_AK3 -to sum[2]
+set_location_assignment PIN_AF11 -to sum[1]
+set_location_assignment PIN_AC12 -to sum[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

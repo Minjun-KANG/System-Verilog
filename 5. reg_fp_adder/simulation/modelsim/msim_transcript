@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do reg_fp_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/reg_fp_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/reg_fp_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:24:34 on Jun 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/reg_fp_adder.sv 
+# -- Compiling module reg_fp_adder
+# -- Compiling module in_flop
+# -- Compiling module out_flop
+# -- Compiling module comp_exp
+# -- Compiling module shift_mant
+# -- Compiling module add_mant
+# 
+# Top level modules:
+# 	reg_fp_adder
+# End time: 00:24:34 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/reg_fp_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/tb_reg_fp_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:24:34 on Jun 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/tb_reg_fp_adder.sv 
+# -- Compiling module tb_reg_fp_adder
+# 
+# Top level modules:
+# 	tb_reg_fp_adder
+# End time: 00:24:34 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_reg_fp_adder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_reg_fp_adder 
+# Start time: 00:24:34 on Jun 11,2020
+# Loading sv_std.std
+# Loading work.tb_reg_fp_adder
+# Loading work.reg_fp_adder
+# Loading work.in_flop
+# Loading work.out_flop
+# Loading work.comp_exp
+# Loading work.shift_mant
+# Loading work.add_mant
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/tb_reg_fp_adder.sv(32)
+#    Time: 65 ps  Iteration: 1  Instance: /tb_reg_fp_adder
+# Break in Module tb_reg_fp_adder at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/reg_fp_adder/tb_reg_fp_adder.sv line 32
+# End time: 00:48:54 on Jun 11,2020, Elapsed time: 0:24:20
+# Errors: 0, Warnings: 0
