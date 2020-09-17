@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat May 02 19:45:20 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : FSM1
+Top-level Entity Name : FSM1
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 12
+Total pins : 5
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

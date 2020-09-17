@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/simulation/modelsim
+vFSM
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1588076986
+!i10b 1
+!s100 BPXRXN0oihoMO0Y4ZDeI>1
+IeePek9kKf1`SdMJTUORza0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 FSM_sv_unit
+S1
+R0
+Z5 w1588076893
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/FSM.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/FSM.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1588076986.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/FSM.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/FSM.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM}
+Z14 tCvgOpt 0
+n@f@s@m
+vFSM_mealy
+R1
+R2
+!i10b 1
+!s100 2j=[^V19Zg2zJFe[@0GmZ3
+I:^4W[KX]P``mokiP1@2[[0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 98
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@s@m_mealy
+vFSM_moore
+R1
+R2
+!i10b 1
+!s100 _L=jc@89LaFL3aEkUf`FE1
+IEZc2J`lGSnXT;1P:^GG:h1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@s@m_moore
+vtb_FSM
+R1
+R2
+!i10b 1
+!s100 Tf`fPMflg[`6URef@g7T]1
+I[[NiW`>h`na=zJM;2JzXS2
+R3
+!s105 tb_FSM_sv_unit
+S1
+R0
+w1588074130
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/tb_FSM.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/tb_FSM.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/tb_FSM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/LAB3_FSM/FSM/tb_FSM.sv|
+!i113 1
+R12
+R13
+R14
+ntb_@f@s@m

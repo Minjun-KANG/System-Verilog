@@ -1,0 +1,110 @@
+module fsm(
+   input clk , reset ,
+   input in_seq,
+   output moore_Y, mealy_Y
+);
+
+   fsm_moore dut_moore(clk, reset , in_seq, moore_Y);
+   fsm_mealy dut_mealy(clk, reset , in_seq, mealy_Y );
+      endmodule 
+   
+   // Moore machine 
+
+
+module fsm_moore(
+   input clk, reset, 
+   input in_seq,
+   output logic moore_Y
+);
+
+ parameter S0 = 2'b00;  // paeameter 바꿔주기
+ parameter S1 = 2'b01;
+ parameter S2 = 2'b10;
+
+logic [1:0] state_moore,  next_state_moore;// 3:0으로 바꾸기?
+
+//statw register
+always_ff @ (posedge clk , posedge reset ) begin
+  if(reset)
+    state_moore<=S0;
+  else 
+    state_moore<=  next_state_moore;
+ end   
+
+// next state logic
+always_comb begin
+   case(state_moore)
+     S0:
+        if (in_seq)
+   next_state_moore = S0;
+        else 
+            next_state_moore = S1;
+     S1:
+        if (in_seq)
+   next_state_moore = S2;
+        else 
+            next_state_moore = S1;
+
+     S2:
+        if (in_seq)
+   next_state_moore = S0;
+        else 
+            next_state_moore = S1;
+
+      default : next_state_moore =S0;
+   endcase
+end
+
+// out put logic 
+
+    assign moore_Y = (state_moore == S2);
+   endmodule
+
+// mealy machine
+module fsm_mealy   (
+            input clk, reset, 
+   input in_seq,
+   output logic mealy_Y
+);
+
+ parameter S0 = 1'b0;  // paeameter 바꿔주기
+ parameter S1 = 1'b1;
+
+logic state_mealy,  next_state_mealy;// 1:0으로 바꾸기?
+
+//state register
+always_ff @ (posedge clk , posedge reset ) begin
+       if(reset) begin
+    state_mealy<=S0;
+    end  
+    else begin 
+         state_mealy<=  next_state_mealy;
+    end   
+end
+// next state logic
+always_comb begin
+   case(state_mealy)
+     S0:begin 
+        if (in_seq)
+   next_state_mealy <= S0;
+        else 
+            next_state_mealy = S1;
+  
+        end
+        S1:
+        if (in_seq)
+   next_state_mealy <= S0;
+        else 
+            next_state_mealy <= S1;
+
+   default : next_state_mealy <=S0;
+         endcase
+end
+
+// out put logic 
+assign mealy_Y=(in_seq & state_mealy==S1);
+
+
+endmodule
+
+ 

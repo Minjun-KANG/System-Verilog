@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "moore_Y",
+					"strict" : false
+				},
+				{
+					"name" : "mealy_Y",
+					"strict" : false
+				},
+				{
+					"name" : "in_seq",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

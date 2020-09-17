@@ -1,0 +1,18 @@
+
+State Machine - |FSM|FSM_mealy:dut_mealy|state_mealy
+Name state_mealy.S3 state_mealy.S2 state_mealy.S1 state_mealy.S0 state_mealy.S4 
+state_mealy.S0 0 0 0 0 0 
+state_mealy.S1 0 0 1 1 0 
+state_mealy.S2 0 1 0 1 0 
+state_mealy.S3 1 0 0 1 0 
+state_mealy.S4 0 0 0 1 1 
+
+State Machine - |FSM|FSM_moore:dut_moore|state_moore
+Name state_moore.S6 state_moore.S5 state_moore.S4 state_moore.S3 state_moore.S2 state_moore.S1 state_moore.S0 
+state_moore.S0 0 0 0 0 0 0 0 
+state_moore.S1 0 0 0 0 0 1 1 
+state_moore.S2 0 0 0 0 1 0 1 
+state_moore.S3 0 0 0 1 0 0 1 
+state_moore.S4 0 0 1 0 0 0 1 
+state_moore.S5 0 1 0 0 0 0 1 
+state_moore.S6 1 0 0 0 0 0 1 

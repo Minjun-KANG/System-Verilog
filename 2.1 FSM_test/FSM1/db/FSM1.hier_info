@@ -1,0 +1,34 @@
+|FSM1
+clk => clk.IN2
+reset => reset.IN2
+in_seq => in_seq.IN2
+moore_Y <= FSM1_moore:dut_moore.port3
+mealy_Y <= FSM1_mealy:dut_mealy.port3
+
+
+|FSM1|FSM1_moore:dut_moore
+clk => state_moore~1.DATAIN
+reset => state_moore~3.DATAIN
+in_seq => next_state_moore.S1.DATAB
+in_seq => Selector2.IN1
+in_seq => Selector3.IN1
+in_seq => Selector1.IN1
+in_seq => Selector0.IN1
+in_seq => next_state_moore.S3.DATAB
+in_seq => next_state_moore.S5.DATAB
+moore_Y <= moore_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FSM1|FSM1_mealy:dut_mealy
+clk => state_mealy~1.DATAIN
+reset => state_mealy~3.DATAIN
+in_seq => mealy_Y.IN0
+in_seq => next_state_mealy.S2.DATAB
+in_seq => Selector1.IN2
+in_seq => Selector2.IN1
+in_seq => mealy_Y.IN0
+in_seq => Selector3.IN1
+in_seq => Selector0.IN2
+mealy_Y <= mealy_Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

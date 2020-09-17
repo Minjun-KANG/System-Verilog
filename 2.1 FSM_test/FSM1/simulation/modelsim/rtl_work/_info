@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/simulation/modelsim
+vFSM1
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1588416417
+!i10b 1
+!s100 83clC;Zm<Y7OnD@^NCCUP1
+I;477AR^Tc>2^m?SMY6`R70
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 FSM1_sv_unit
+S1
+R0
+Z5 w1588416304
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/FSM1.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/FSM1.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1588416417.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/FSM1.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/FSM1.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1}
+Z14 tCvgOpt 0
+n@f@s@m1
+vFSM1_mealy
+R1
+R2
+!i10b 1
+!s100 D`4VE;38?Q=cgAafk:Ooo2
+IgU@Wlc[CN00T_md5_VcFG2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 84
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@s@m1_mealy
+vFSM1_moore
+R1
+R2
+!i10b 1
+!s100 LGijnPGhnSecdSEWXA8f01
+ITcEkiWI@4ZOj^mGT^g]QQ1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@s@m1_moore
+vtb_FSM
+R1
+R2
+!i10b 1
+!s100 U@DSoT[`I8gS63OM`o1Ed1
+IQkFZKE0Ci3Tzo;[9ZdfVh3
+R3
+!s105 tb_FSM_sv_unit
+S1
+R0
+w1588234925
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/tb_FSM.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/tb_FSM.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/tb_FSM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/test/FSM1/tb_FSM.sv|
+!i113 1
+R12
+R13
+R14
+ntb_@f@s@m

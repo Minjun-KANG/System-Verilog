@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/snail_test/fsm/fsm.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/snail_test/fsm/tb_fsm.sv
+source_file = 1, C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/snail_test/fsm/db/fsm.cbx.xml
+design_name = fsm
+instance = comp, \moore_Y~output , moore_Y~output, fsm, 1
+instance = comp, \mealy_Y~output , mealy_Y~output, fsm, 1
+instance = comp, \clk~input , clk~input, fsm, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, fsm, 1
+instance = comp, \in_seq~input , in_seq~input, fsm, 1
+instance = comp, \dut_mealy|state_mealy~0 , dut_mealy|state_mealy~0, fsm, 1
+instance = comp, \reset~input , reset~input, fsm, 1
+instance = comp, \dut_mealy|state_mealy , dut_mealy|state_mealy, fsm, 1
+instance = comp, \dut_mealy|mealy_Y , dut_mealy|mealy_Y, fsm, 1
+instance = comp, \dut_moore|state_moore.S2 , dut_moore|state_moore.S2, fsm, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, fsm, 1
