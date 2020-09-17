@@ -1,0 +1,65 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do fp_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/fp_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/fp_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:04:34 on Jun 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/fp_adder.sv 
+# -- Compiling module fp_adder
+# -- Compiling module comp_exp
+# -- Compiling module shift_mant
+# -- Compiling module add_mant
+# 
+# Top level modules:
+# 	fp_adder
+# End time: 19:04:34 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/fp_adder {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/tb_fp_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:04:34 on Jun 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/tb_fp_adder.sv 
+# -- Compiling module tb_fp_adder
+# 
+# Top level modules:
+# 	tb_fp_adder
+# End time: 19:04:34 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fp_adder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fp_adder 
+# Start time: 19:04:34 on Jun 03,2020
+# Loading sv_std.std
+# Loading work.tb_fp_adder
+# Loading work.fp_adder
+# Loading work.comp_exp
+# Loading work.shift_mant
+# Loading work.add_mant
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# value of a = 01000000111111000000000000000000, b = 00111110010000000000000000000000, s = 01000001000000010000000000000000
+# value of a = 01000001111011010100000000011010, b = 00111110110001011010000111001011, s = 01000001111100000101011010100001
+# value of a = 00111111101011101011100001010010, b = 01000000000111100111111011111010, s = 01000000011101011101101100100011
+# value of a = 01000000101100000000000000000000, b = 00111111101000000000000000000000, s = 01000000110110000000000000000000
+# value of a = 01000001011111110000000000000000, b = 01000000001100000000000000000000, s = 01000001100101011000000000000000
+# value of a = 11000001101010101100110011001101, b = 11000000010100011001100110011010, s = 01000001110001010000000000000000
+# value of a = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, s = 0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/tb_fp_adder.sv(30)
+#    Time: 65 ps  Iteration: 1  Instance: /tb_fp_adder
+# Break in Module tb_fp_adder at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_adder/tb_fp_adder.sv line 30
+# End time: 20:18:34 on Jun 03,2020, Elapsed time: 1:14:00
+# Errors: 0, Warnings: 0

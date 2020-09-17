@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/simulation/modelsim
+vfp_mul
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1591187884
+!i10b 1
+!s100 _c9Zi_0UDj_]PZYU2VScn1
+IDGlR3o:7E@X_CX0D<HP8R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 fp_mul_sv_unit
+S1
+R0
+Z5 w1591187553
+Z6 8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv
+Z7 FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1591187884.000000
+Z10 !s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul}
+Z14 tCvgOpt 0
+vmul_add_mant
+R1
+R2
+!i10b 1
+!s100 6E4[2]ePDR;dTAJi;9fmW0
+IMWU:<4SK_6LWNhQIl83:h3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 51
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmul_comp_exp
+R1
+R2
+!i10b 1
+!s100 KjF`oBF2_?>2U5@dbZI>g1
+I9C@bo>lDU5jbIhmYQS<Qj1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 27
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmul_shift_mant
+R1
+R2
+!i10b 1
+!s100 o43n4i`T51ZUcQgFkNAPA1
+Ii_zZ]@g_hDblYPMMd7m1B2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 38
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtb_fp_mul
+R1
+!s110 1591187885
+!i10b 1
+!s100 6PUYQGM?7BBCCSEizZglT1
+I0oS2]9c@Sd]LUC>ig[TSl3
+R3
+!s105 tb_fp_mul_sv_unit
+S1
+R0
+w1591187052
+8C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv
+FC:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1591187885.000000
+!s107 C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul|C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv|
+!i113 1
+R12
+R13
+R14

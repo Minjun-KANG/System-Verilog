@@ -1,0 +1,66 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do fp_mul_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/fp_mul {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:04 on Jun 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/fp_mul.sv 
+# -- Compiling module fp_mul
+# -- Compiling module mul_comp_exp
+# -- Compiling module mul_shift_mant
+# -- Compiling module mul_add_mant
+# 
+# Top level modules:
+# 	fp_mul
+# End time: 21:38:04 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ansal/OneDrive/Desktop/Source\ code/Quartus/fp_mul {C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:05 on Jun 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul" C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv 
+# -- Compiling module tb_fp_mul
+# 
+# Top level modules:
+# 	tb_fp_mul
+# End time: 21:38:05 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fp_mul
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fp_mul 
+# Start time: 21:38:05 on Jun 03,2020
+# Loading sv_std.std
+# Loading work.tb_fp_mul
+# Loading work.fp_mul
+# Loading work.mul_comp_exp
+# Loading work.mul_shift_mant
+# Loading work.mul_add_mant
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# value of a = 01000000111111000000000000000000, b = 00111110010000000000000000000000, m = 00111111101111010000000000000000
+# value of a = 01000001111011010100000000011010, b = 00111110110001011010000111001011, m = 01000001001101110010100001000101
+# value of a = 00111111101011101011100001010010, b = 01000000000111100111111011111010, m = 01000000010110000101100011010111
+# value of a = 01000000101100000000000000000000, b = 00111111101000000000000000000000, m = 01000000110111000000000000000000
+# value of a = 01000001011111110000000000000000, b = 01000000001100000000000000000000, m = 01000010001011110101000000000000
+# value of a = 11000001101010101100110011001101, b = 11000000010100011001100110011010, m = 01000010100010111101011110101110
+# value of a = 11000001101010101100110011001101, b = 01000000000111100111111011111010, m = 11000010010100110111111000111100
+# value of a = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, b = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, m = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ** Note: $stop    : C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv(29)
+#    Time: 75 ps  Iteration: 1  Instance: /tb_fp_mul
+# Break in Module tb_fp_mul at C:/Users/ansal/OneDrive/Desktop/Source code/Quartus/fp_mul/tb_fp_mul.sv line 29
+# End time: 21:59:50 on Jun 03,2020, Elapsed time: 0:21:45
+# Errors: 0, Warnings: 0

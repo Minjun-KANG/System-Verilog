@@ -1,0 +1,30 @@
+module tb_fp_adder();
+	logic clk;
+	logic [31:0] a, b, sum;
+	logic [63:0] counter;
+	logic [63:0] testvector [4:0];
+
+	fp_adder dut(a,b,sum);
+
+	always begin
+		clk = 1; #5;
+		clk = 0; #5;
+	end
+
+	initial begin
+		$readmemb("D:/class/4"
+		counter = 0;
+	end
+
+	always @ (posedge clk) begin
+		#1; {a, b} = testvector{counter};
+	end
+
+	always @ (negedge clk) begin
+		$display("value of a = %b, b = %b, s = %b", a, b, sum);
+		counter = counter + 1;
+		if ( counter == 6)
+			$stop
+	end
+endmodule
+

@@ -1,0 +1,68 @@
+module fp_multi(
+   input logic [31:0] a, b, // 
+   output logic [31:0] multi
+
+);
+    logic [7:0] exp_a, exp_b, exp_pre, exp_c, exp_val;
+    
+    logic [23:0] mant_a , mant_b;
+    logic [22:0] fract;
+    logic [24:0] mant_c;
+   
+
+    assign {exp_a, mant_a} = {a[30:23] , 1'b1 , a[22:0]};
+    assign {exp_b, mant_b} = {b[30:23] , 1'b1 , b[22:0]};
+
+    assign multi ={1'b0 ,  exp_val,  fract};
+    
+   comp_exp dut_exp(exp_a, exp_b, exp_pre);
+   shift_mant dut_shift(mant_a,mant_b,mant_c);
+   add_mant dut_add(mant_c , exp_pre , fract, exp_val);
+
+   endmodule
+
+   module comp_exp(
+    input logic[7:0] exp_a, exp_b,
+   output logic [7:0] exp_pre
+);
+      
+
+     assign exp_pre = exp_a + exp_b - 127;
+  
+    endmodule
+
+    
+
+module shift_mant(
+           
+            input logic [23:0] mant_a ,mant_b,
+            
+            output logic [24:0] mant_c 
+
+);
+
+   logic [47:0]line;
+
+assign line = mant_a * mant_b;
+
+assign mant_c = line [47:23] ;
+   
+      
+   endmodule
+
+module add_mant(
+   
+   input logic [24:0] mant_c,
+  input logic [7:0] exp_pre, 
+   output logic [22:0]fract ,
+   output logic [7:0]exp_val
+);
+
+    
+    assign fract = mant_c [24] ? mant_c[23:1]:mant_c[22:0];
+    
+    assign exp_val = mant_c[24] ? (exp_pre+1) : exp_pre; 
+    
+    
+    
+endmodule
